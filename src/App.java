@@ -10,6 +10,15 @@ public class App {
     //   ArrayList and this should still work.
     public static void main(String[] args) throws Exception {
     
+        ArrayList <String> words = new ArrayList<>();
+        words.add("Java");
+        words.add("Python");
+        words.add("JavaScript");
+
+
+        for (String i: words){
+            System.out.println(i);
+        }
 
     }
 }
